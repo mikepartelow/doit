@@ -1,0 +1,9 @@
+name: Third Time's The Charm
+kind: recipe/v1
+steps:
+- kind: step/v1
+  name: MkdirAndSucceedIfItDidNotAlreadyExist
+- kind: step/v1
+  name: CreateFileInDirAndSucceedTheThirdTime
+- kind: step/v1
+  name: Tada

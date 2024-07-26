@@ -1,0 +1,7 @@
+name: Hello World
+kind: recipe/v1
+steps:
+- kind: step/v1
+  name: HelloFunc
+- kind: step/v1
+  name: WorldFunc
